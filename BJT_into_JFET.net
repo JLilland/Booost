@@ -1,0 +1,32 @@
+* C:\Pinebox Effects\Booost\BJT_into_JFET.asc
+J1 N002 N006 N010 2N5485
+R1 N006 0 1Meg
+R2 N010 0 550
+R3 9v N002 2.7k
+C1 N003 N002 220n
+R4 N003 N011 70k
+R5 N011 0 30k
+C2 N002 N001 200p
+R6 N006 N005 1k
+Q1 N004 N009 N012 0 2N3904
+C3 N005 N004 100n
+C4 N008 N007 100n
+R7 N012 0 550
+R8 9v N004 10k
+R9 N009 0 100k
+R10 9v N009 1Meg
+V1 N007 0 SINE(0 .1 800) AC .05
+R11 N007 0 1.8Meg
+V2 9v 0 9
+R12 N009 N008 22k
+C5 0 N013 100µ
+.model NPN NPN
+.model PNP PNP
+.lib C:\Users\Jeremiah Lilland\Documents\LTspiceXVII\lib\cmp\standard.bjt
+.model NJF NJF
+.model PJF PJF
+.lib C:\Users\Jeremiah Lilland\Documents\LTspiceXVII\lib\cmp\standard.jft
+.tran 15ms
+;ac dec 100 20 20k
+.backanno
+.end
