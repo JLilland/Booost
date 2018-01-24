@@ -1,0 +1,24 @@
+Circuit: * C:\Pinebox Effects\Booost\BJT_Single_Stage.asc
+
+WARNING: Node NC_01 is floating.
+
+WARNING: Less than two connections to node NC_01.  This node is used by R7.
+Direct Newton iteration for .op point succeeded.
+
+Date: Sun Jan 14 22:30:51 2018
+Total elapsed time: 0.186 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 2137
+traniter = 2129
+tranpoints = 1056
+accept = 1054
+rejected = 2
+matrix size = 19
+fillins = 15
+solver = Normal
+Matrix Compiler1:      90 opcodes  0.4/[0.1]/0.2
+Matrix Compiler2: 1.64 KB object code size  0.2/0.3/[0.1]
+

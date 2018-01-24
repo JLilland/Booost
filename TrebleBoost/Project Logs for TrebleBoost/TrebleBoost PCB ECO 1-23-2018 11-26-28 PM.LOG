@@ -1,0 +1,170 @@
+Removed Pin From Net: NetName=NetQ3_1 Pin=R5-2
+Removed Pin From Net: NetName=LED+ Pin=R6-1
+Removed Pin From Net: NetName=NetR3_2 Pin=U3-1
+Removed Pin From Net: NetName=NetR2_1 Pin=U4-19
+Removed Pin From Net: NetName=PGD Pin=U4-21
+Removed Pin From Net: NetName=PGC Pin=U4-22
+Removed Pin From Net: NetName=NetR6_2 Pin=U4-25
+Removed Pin From Net: NetName=NetC6_1 Pin=U4-39
+Change Component Footprint: Designator=R2 Old Footprint=J1-0603 New Footprint=6-0805
+Change Component Footprint: Designator=R3 Old Footprint=J1-0603 New Footprint=6-0805
+Change Component Footprint: Designator=R4 Old Footprint=J1-0603 New Footprint=6-0805
+Change Component Footprint: Designator=R5 Old Footprint=J1-0603 New Footprint=6-0805
+Change Component Footprint: Designator=R6 Old Footprint=J1-0603 New Footprint=6-0805
+Change Component Comment : Designator=R2 Old Comment=Res3 New Comment=ERJ6BQ
+Change Component Comment : Designator=R3 Old Comment=Res3 New Comment=ERJ6BQ
+Change Component Comment : Designator=R4 Old Comment=Res3 New Comment=ERJ6BQ
+Change Component Comment : Designator=R5 Old Comment=Res3 New Comment=ERJ6BQ
+Change Component Comment : Designator=R6 Old Comment=Res3 New Comment=ERJ6BQ
+Change component parameters: Designator = "R13"; Footprint = "AXIAL-0.4"; UniqueID = "\VUTDWVHU\NULOVJKK"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "LatestRevisionDate"; Value = "17-Jul-2002"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "LatestRevisionNote"; Value = "Re-released for DXP Platform."; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageDescription"; Value = "Axial Device, Thru-Hole; 2 Leads; 0.4 in Pin Spacing"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageReference"; Value = "AXIAL-0.4"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Published"; Value = "8-Jun-2000"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "33"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R4"; Footprint = "6-0805"; UniqueID = "\XVAXQFNO\HLBQCOMB"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Code_IPC"; Value = "2012 [0805]"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1Description"; Value = "Manufacturer Link"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.panasonic.com/industrial/components/resistive_products.htm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink2URL"; Value = "http://www.panasonic.com/industrial/components/pdf/AOA0000CE3.pdf"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "LatestRevisionDate"; Value = "19-Mar-2004"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "LatestRevisionNote"; Value = "Silkscreen size reduced."; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageDocument"; Value = "Mar-2003"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageReference"; Value = "6-0805"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Published"; Value = "17-Dec-2003"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "10k"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R2"; Footprint = "6-0805"; UniqueID = "\XVAXQFNO\UHFKDVLT"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Code_IPC"; Value = "2012 [0805]"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1Description"; Value = "Manufacturer Link"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.panasonic.com/industrial/components/resistive_products.htm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink2URL"; Value = "http://www.panasonic.com/industrial/components/pdf/AOA0000CE3.pdf"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "LatestRevisionDate"; Value = "19-Mar-2004"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "LatestRevisionNote"; Value = "Silkscreen size reduced."; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageDocument"; Value = "Mar-2003"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageReference"; Value = "6-0805"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Published"; Value = "17-Dec-2003"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "1k"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R3"; Footprint = "6-0805"; UniqueID = "\XVAXQFNO\SIVMXRGB"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Code_IPC"; Value = "2012 [0805]"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1Description"; Value = "Manufacturer Link"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.panasonic.com/industrial/components/resistive_products.htm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink2URL"; Value = "http://www.panasonic.com/industrial/components/pdf/AOA0000CE3.pdf"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "LatestRevisionDate"; Value = "19-Mar-2004"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "LatestRevisionNote"; Value = "Silkscreen size reduced."; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageDocument"; Value = "Mar-2003"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageReference"; Value = "6-0805"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Published"; Value = "17-Dec-2003"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "1k"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R5"; Footprint = "6-0805"; UniqueID = "\XVAXQFNO\AJFGSVPN"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Code_IPC"; Value = "2012 [0805]"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1Description"; Value = "Manufacturer Link"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.panasonic.com/industrial/components/resistive_products.htm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink2URL"; Value = "http://www.panasonic.com/industrial/components/pdf/AOA0000CE3.pdf"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "LatestRevisionDate"; Value = "19-Mar-2004"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "LatestRevisionNote"; Value = "Silkscreen size reduced."; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageDocument"; Value = "Mar-2003"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageReference"; Value = "6-0805"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Published"; Value = "17-Dec-2003"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "1k"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R6"; Footprint = "6-0805"; UniqueID = "\XVAXQFNO\VPQFHXBM"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Code_IPC"; Value = "2012 [0805]"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1Description"; Value = "Manufacturer Link"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.panasonic.com/industrial/components/resistive_products.htm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink2URL"; Value = "http://www.panasonic.com/industrial/components/pdf/AOA0000CE3.pdf"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "LatestRevisionDate"; Value = "19-Mar-2004"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "LatestRevisionNote"; Value = "Silkscreen size reduced."; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageDocument"; Value = "Mar-2003"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageReference"; Value = "6-0805"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Published"; Value = "17-Dec-2003"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "47"; VariantName = "[No Variations]"
+Added Component: Designator=C13(1206)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Code_IPC"; Value = "3216 [1206]"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Code_JEITA"; Value = "1206"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Manufacturer Link"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.kemet.com/"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "http://www.kemet.com/kemet/web/homepage/kechome.nsf/vapubfilesname/F3102TA.pdf/$file/F3102TA.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DatasheetDocument"; Value = "Mar-2001"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionDate"; Value = "19-Mar-2004"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionNote"; Value = "Silkscreen size reduced."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageDocument"; Value = "Mar-2001"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "1206"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Published"; Value = "17-Jul-2002"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "100nF"; VariantName = "[No Variations]"
+Added Component: Designator=R14(6-0805)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Code_IPC"; Value = "2012 [0805]"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Manufacturer Link"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.panasonic.com/industrial/components/resistive_products.htm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "http://www.panasonic.com/industrial/components/pdf/AOA0000CE3.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionDate"; Value = "19-Mar-2004"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionNote"; Value = "Silkscreen size reduced."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageDocument"; Value = "Mar-2003"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "6-0805"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Published"; Value = "17-Dec-2003"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "47"; VariantName = "[No Variations]"
+Added Component: Designator=R15(6-0805)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Code_IPC"; Value = "2012 [0805]"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Manufacturer Link"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.panasonic.com/industrial/components/resistive_products.htm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "http://www.panasonic.com/industrial/components/pdf/AOA0000CE3.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionDate"; Value = "19-Mar-2004"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionNote"; Value = "Silkscreen size reduced."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageDocument"; Value = "Mar-2003"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "6-0805"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Published"; Value = "17-Dec-2003"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "1k"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=3.3V Pin=C13-2
+Added Pin To Net: NetName=NetQ3_1 Pin=R5-1
+Added Pin To Net: NetName=PGD Pin=R6-1
+Added Pin To Net: NetName=PGC Pin=R14-1
+Added Pin To Net: NetName=LED+ Pin=R15-2
+Added Pin To Net: NetName=NetR2_1 Pin=U3-1
+Added Pin To Net: NetName=NetR3_2 Pin=U4-19
+Added Pin To Net: NetName=NetR6_2 Pin=U4-21
+Added Pin To Net: NetName=NetC13_1 Pin=C13-1
+Added Pin To Net: NetName=NetC13_1 Pin=U4-39
+Added Net: Name=NetC13_1
+Added Pin To Net: NetName=NetQ2_1 Pin=Q2-1
+Added Pin To Net: NetName=NetQ2_1 Pin=R3-1
+Added Net: Name=NetQ2_1
+Added Pin To Net: NetName=NetR5_2 Pin=R5-2
+Added Pin To Net: NetName=NetR5_2 Pin=U4-20
+Added Net: Name=NetR5_2
+Added Pin To Net: NetName=NetR14_2 Pin=R14-2
+Added Pin To Net: NetName=NetR14_2 Pin=U4-22
+Added Net: Name=NetR14_2
+Added Pin To Net: NetName=NetR15_1 Pin=R15-1
+Added Pin To Net: NetName=NetR15_1 Pin=U4-25
+Added Net: Name=NetR15_1
+Added Pin To Net: NetName=Opto Pin=R2-2
+Added Pin To Net: NetName=Opto Pin=U4-26
+Added Net: Name=Opto
+Added Member To Class: ClassName=U_RelayBypass Member=Component C13 C1206
+Added Member To Class: ClassName=U_RelayBypass Member=Component R14 ERJ6BQ
+Added Member To Class: ClassName=U_RelayBypass Member=Component R15 ERJ6BQ

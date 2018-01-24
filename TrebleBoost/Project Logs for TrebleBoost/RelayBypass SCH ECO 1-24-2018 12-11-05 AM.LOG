@@ -1,0 +1,18 @@
+Replace Part * Relay DPDT Dual Coil in C:\Pinebox Effects\Booost\TrebleBoost\RelayBypass.SchDoc with Relay DPDT Dual Coil from Parts.SchLib
+Replace Part C5 C1210 in C:\Pinebox Effects\Booost\TrebleBoost\RelayBypass.SchDoc with C1210 from KEMET Chip Capacitor.IntLib
+Replace Part C6 C1206 in C:\Pinebox Effects\Booost\TrebleBoost\RelayBypass.SchDoc with C1206 from KEMET Chip Capacitor.IntLib
+Replace Part C13 C1206 in C:\Pinebox Effects\Booost\TrebleBoost\RelayBypass.SchDoc with C1206 from KEMET Chip Capacitor.IntLib
+Replace Part D1 Diode 1N4148 in C:\Pinebox Effects\Booost\TrebleBoost\RelayBypass.SchDoc with Diode 1N4148 from Miscellaneous Devices.IntLib
+Replace Part D2 Diode 1N4148 in C:\Pinebox Effects\Booost\TrebleBoost\RelayBypass.SchDoc with Diode 1N4148 from Miscellaneous Devices.IntLib
+Replace Part P1 Header 6 in C:\Pinebox Effects\Booost\TrebleBoost\RelayBypass.SchDoc with Header 6 from Miscellaneous Connectors.IntLib
+Replace Part Q2 MMBT3904WT1G in C:\Pinebox Effects\Booost\TrebleBoost\RelayBypass.SchDoc with MMBT3904WT1G from ON Semi General Purpose Transistors.IntLib
+Replace Part Q3 MMBT3904WT1G in C:\Pinebox Effects\Booost\TrebleBoost\RelayBypass.SchDoc with MMBT3904WT1G from ON Semi General Purpose Transistors.IntLib
+Replace Part R2 ERJ6BQ in C:\Pinebox Effects\Booost\TrebleBoost\RelayBypass.SchDoc with ERJ6BQ from Panasonic Resistor.IntLib
+Replace Part R3 ERJ6BQ in C:\Pinebox Effects\Booost\TrebleBoost\RelayBypass.SchDoc with ERJ6BQ from Panasonic Resistor.IntLib
+Replace Part R4 ERJ6BQ in C:\Pinebox Effects\Booost\TrebleBoost\RelayBypass.SchDoc with ERJ6BQ from Panasonic Resistor.IntLib
+Replace Part R5 ERJ6BQ in C:\Pinebox Effects\Booost\TrebleBoost\RelayBypass.SchDoc with ERJ6BQ from Panasonic Resistor.IntLib
+Replace Part R6 ERJ6BQ in C:\Pinebox Effects\Booost\TrebleBoost\RelayBypass.SchDoc with ERJ6BQ from Panasonic Resistor.IntLib
+Replace Part R14 ERJ6BQ in C:\Pinebox Effects\Booost\TrebleBoost\RelayBypass.SchDoc with ERJ6BQ from Panasonic Resistor.IntLib
+Replace Part R15 ERJ6BQ in C:\Pinebox Effects\Booost\TrebleBoost\RelayBypass.SchDoc with ERJ6BQ from Panasonic Resistor.IntLib
+Replace Part U3 Optoisolator1 in C:\Pinebox Effects\Booost\TrebleBoost\RelayBypass.SchDoc with Optoisolator1 from Miscellaneous Devices.IntLib
+Replace Part U4 PIC24FJ64GA004-E/PT in C:\Pinebox Effects\Booost\TrebleBoost\RelayBypass.SchDoc with PIC24FJ64GA004-E/PT from Microchip Microcontroller 16-Bit PIC24F.IntLib

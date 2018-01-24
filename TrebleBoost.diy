@@ -1,0 +1,975 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<org.diylc.core.Project>
+  <fileVersion>
+    <major>3</major>
+    <minor>36</minor>
+    <build>0</build>
+  </fileVersion>
+  <title>New Project</title>
+  <author>Jeremiah Lilland</author>
+  <width>
+    <value>29.0</value>
+    <unit class="org.diylc.core.measures.SizeUnit">cm</unit>
+  </width>
+  <height>
+    <value>21.0</value>
+    <unit class="org.diylc.core.measures.SizeUnit">cm</unit>
+  </height>
+  <gridSpacing>
+    <value>0.1</value>
+    <unit class="org.diylc.core.measures.SizeUnit">in</unit>
+  </gridSpacing>
+  <components>
+    <org.diylc.components.boards.VeroBoard>
+      <name>Board1</name>
+      <alpha>127</alpha>
+      <value></value>
+      <controlPoints>
+        <java.awt.Point x="5.6" y="4.6"/>
+        <java.awt.Point x="6.7" y="5.4"/>
+      </controlPoints>
+      <firstPoint x="5.6" y="4.6"/>
+      <secondPoint x="6.7" y="5.4"/>
+      <boardColor>
+        <red>248</red>
+        <green>235</green>
+        <blue>179</blue>
+        <alpha>255</alpha>
+      </boardColor>
+      <borderColor>
+        <red>173</red>
+        <green>164</green>
+        <blue>125</blue>
+        <alpha>255</alpha>
+      </borderColor>
+      <coordinateColor>
+        <red>182</red>
+        <green>182</green>
+        <blue>182</blue>
+        <alpha>255</alpha>
+      </coordinateColor>
+      <drawCoordinates>true</drawCoordinates>
+      <spacing>
+        <value>0.1</value>
+        <unit class="org.diylc.core.measures.SizeUnit">in</unit>
+      </spacing>
+      <stripColor>
+        <red>218</red>
+        <green>138</green>
+        <blue>103</blue>
+        <alpha>255</alpha>
+      </stripColor>
+      <orientation>HORIZONTAL</orientation>
+    </org.diylc.components.boards.VeroBoard>
+    <org.diylc.components.connectivity.TraceCut>
+      <name>Cut1</name>
+      <size>
+        <value>0.08</value>
+        <unit class="org.diylc.core.measures.SizeUnit">in</unit>
+      </size>
+      <fillColor>
+        <red>255</red>
+        <green>255</green>
+        <blue>255</blue>
+        <alpha>255</alpha>
+      </fillColor>
+      <borderColor>
+        <red>255</red>
+        <green>0</green>
+        <blue>0</blue>
+        <alpha>255</alpha>
+      </borderColor>
+      <boardColor reference="../../org.diylc.components.boards.VeroBoard/boardColor"/>
+      <cutBetweenHoles>false</cutBetweenHoles>
+      <holeSpacing reference="../../org.diylc.components.boards.VeroBoard/spacing"/>
+      <point x="6.2" y="5.1"/>
+    </org.diylc.components.connectivity.TraceCut>
+    <org.diylc.components.connectivity.TraceCut>
+      <name>Cut2</name>
+      <size reference="../../org.diylc.components.connectivity.TraceCut/size"/>
+      <fillColor reference="../../org.diylc.components.connectivity.TraceCut/fillColor"/>
+      <borderColor reference="../../org.diylc.components.connectivity.TraceCut/borderColor"/>
+      <boardColor reference="../../org.diylc.components.boards.VeroBoard/boardColor"/>
+      <cutBetweenHoles>false</cutBetweenHoles>
+      <holeSpacing reference="../../org.diylc.components.boards.VeroBoard/spacing"/>
+      <point x="6.4" y="4.7"/>
+    </org.diylc.components.connectivity.TraceCut>
+    <org.diylc.components.semiconductors.TransistorTO92>
+      <name>Q1</name>
+      <alpha>127</alpha>
+      <value></value>
+      <orientation>_180</orientation>
+      <controlPoints>
+        <java.awt.Point x="5.8" y="4.9"/>
+        <java.awt.Point x="5.8" y="4.8"/>
+        <java.awt.Point x="5.8" y="4.7"/>
+      </controlPoints>
+      <bodyColor>
+        <red>128</red>
+        <green>128</green>
+        <blue>128</blue>
+        <alpha>255</alpha>
+      </bodyColor>
+      <borderColor>
+        <red>89</red>
+        <green>89</green>
+        <blue>89</blue>
+        <alpha>255</alpha>
+      </borderColor>
+      <labelColor reference="../../org.diylc.components.connectivity.TraceCut/fillColor"/>
+      <display>NAME</display>
+      <folded>false</folded>
+      <pinSpacing>
+        <value>0.1</value>
+        <unit class="org.diylc.core.measures.SizeUnit">in</unit>
+      </pinSpacing>
+    </org.diylc.components.semiconductors.TransistorTO92>
+    <org.diylc.components.passive.Resistor>
+      <name>R1</name>
+      <alpha>127</alpha>
+      <length>
+        <value>0.7</value>
+        <unit class="org.diylc.core.measures.SizeUnit">cm</unit>
+      </length>
+      <width>
+        <value>0.25</value>
+        <unit class="org.diylc.core.measures.SizeUnit">cm</unit>
+      </width>
+      <points>
+        <java.awt.Point x="5.8" y="5.3"/>
+        <java.awt.Point x="5.8" y="5.0"/>
+      </points>
+      <bodyColor>
+        <red>130</red>
+        <green>207</green>
+        <blue>253</blue>
+        <alpha>255</alpha>
+      </bodyColor>
+      <borderColor>
+        <red>91</red>
+        <green>144</green>
+        <blue>177</blue>
+        <alpha>255</alpha>
+      </borderColor>
+      <labelColor>
+        <red>0</red>
+        <green>0</green>
+        <blue>0</blue>
+        <alpha>255</alpha>
+      </labelColor>
+      <leadColor>
+        <red>204</red>
+        <green>204</green>
+        <blue>204</blue>
+        <alpha>255</alpha>
+      </leadColor>
+      <display>NAME</display>
+      <flipStanding>false</flipStanding>
+      <value>
+        <value>2.7</value>
+        <unit class="org.diylc.core.measures.ResistanceUnit">K</unit>
+      </value>
+      <power>HALF</power>
+      <colorCode>_5_BAND</colorCode>
+    </org.diylc.components.passive.Resistor>
+    <org.diylc.components.passive.Resistor>
+      <name>R1</name>
+      <alpha>127</alpha>
+      <length>
+        <value>0.7</value>
+        <unit class="org.diylc.core.measures.SizeUnit">cm</unit>
+      </length>
+      <width>
+        <value>0.25</value>
+        <unit class="org.diylc.core.measures.SizeUnit">cm</unit>
+      </width>
+      <points>
+        <java.awt.Point x="5.9" y="5.3"/>
+        <java.awt.Point x="5.9" y="4.8"/>
+      </points>
+      <bodyColor>
+        <red>130</red>
+        <green>207</green>
+        <blue>253</blue>
+        <alpha>255</alpha>
+      </bodyColor>
+      <borderColor>
+        <red>91</red>
+        <green>144</green>
+        <blue>177</blue>
+        <alpha>255</alpha>
+      </borderColor>
+      <labelColor>
+        <red>0</red>
+        <green>0</green>
+        <blue>0</blue>
+        <alpha>255</alpha>
+      </labelColor>
+      <leadColor>
+        <red>204</red>
+        <green>204</green>
+        <blue>204</blue>
+        <alpha>255</alpha>
+      </leadColor>
+      <display>NAME</display>
+      <flipStanding>false</flipStanding>
+      <value>
+        <value>2.7</value>
+        <unit class="org.diylc.core.measures.ResistanceUnit">K</unit>
+      </value>
+      <power>HALF</power>
+      <colorCode>_5_BAND</colorCode>
+    </org.diylc.components.passive.Resistor>
+    <org.diylc.components.passive.Resistor>
+      <name>R1</name>
+      <alpha>127</alpha>
+      <length>
+        <value>0.7</value>
+        <unit class="org.diylc.core.measures.SizeUnit">cm</unit>
+      </length>
+      <width>
+        <value>0.25</value>
+        <unit class="org.diylc.core.measures.SizeUnit">cm</unit>
+      </width>
+      <points>
+        <java.awt.Point x="6.0" y="5.1"/>
+        <java.awt.Point x="6.0" y="4.8"/>
+      </points>
+      <bodyColor>
+        <red>130</red>
+        <green>207</green>
+        <blue>253</blue>
+        <alpha>255</alpha>
+      </bodyColor>
+      <borderColor>
+        <red>91</red>
+        <green>144</green>
+        <blue>177</blue>
+        <alpha>255</alpha>
+      </borderColor>
+      <labelColor>
+        <red>0</red>
+        <green>0</green>
+        <blue>0</blue>
+        <alpha>255</alpha>
+      </labelColor>
+      <leadColor>
+        <red>204</red>
+        <green>204</green>
+        <blue>204</blue>
+        <alpha>255</alpha>
+      </leadColor>
+      <display>NAME</display>
+      <flipStanding>false</flipStanding>
+      <value>
+        <value>2.7</value>
+        <unit class="org.diylc.core.measures.ResistanceUnit">K</unit>
+      </value>
+      <power>HALF</power>
+      <colorCode>_5_BAND</colorCode>
+    </org.diylc.components.passive.Resistor>
+    <org.diylc.components.passive.Resistor>
+      <name>R1</name>
+      <alpha>127</alpha>
+      <length>
+        <value>0.7</value>
+        <unit class="org.diylc.core.measures.SizeUnit">cm</unit>
+      </length>
+      <width>
+        <value>0.25</value>
+        <unit class="org.diylc.core.measures.SizeUnit">cm</unit>
+      </width>
+      <points>
+        <java.awt.Point x="6.1" y="5.1"/>
+        <java.awt.Point x="6.1" y="4.7"/>
+      </points>
+      <bodyColor>
+        <red>130</red>
+        <green>207</green>
+        <blue>253</blue>
+        <alpha>255</alpha>
+      </bodyColor>
+      <borderColor>
+        <red>91</red>
+        <green>144</green>
+        <blue>177</blue>
+        <alpha>255</alpha>
+      </borderColor>
+      <labelColor>
+        <red>0</red>
+        <green>0</green>
+        <blue>0</blue>
+        <alpha>255</alpha>
+      </labelColor>
+      <leadColor>
+        <red>204</red>
+        <green>204</green>
+        <blue>204</blue>
+        <alpha>255</alpha>
+      </leadColor>
+      <display>NAME</display>
+      <flipStanding>false</flipStanding>
+      <value>
+        <value>2.7</value>
+        <unit class="org.diylc.core.measures.ResistanceUnit">K</unit>
+      </value>
+      <power>HALF</power>
+      <colorCode>_5_BAND</colorCode>
+    </org.diylc.components.passive.Resistor>
+    <org.diylc.components.passive.Resistor>
+      <name>R1</name>
+      <alpha>127</alpha>
+      <length>
+        <value>0.7</value>
+        <unit class="org.diylc.core.measures.SizeUnit">cm</unit>
+      </length>
+      <width>
+        <value>0.25</value>
+        <unit class="org.diylc.core.measures.SizeUnit">cm</unit>
+      </width>
+      <points>
+        <java.awt.Point x="6.2" y="5.3"/>
+        <java.awt.Point x="6.2" y="4.9"/>
+      </points>
+      <bodyColor>
+        <red>130</red>
+        <green>207</green>
+        <blue>253</blue>
+        <alpha>255</alpha>
+      </bodyColor>
+      <borderColor>
+        <red>91</red>
+        <green>144</green>
+        <blue>177</blue>
+        <alpha>255</alpha>
+      </borderColor>
+      <labelColor>
+        <red>0</red>
+        <green>0</green>
+        <blue>0</blue>
+        <alpha>255</alpha>
+      </labelColor>
+      <leadColor>
+        <red>204</red>
+        <green>204</green>
+        <blue>204</blue>
+        <alpha>255</alpha>
+      </leadColor>
+      <display>NAME</display>
+      <flipStanding>false</flipStanding>
+      <value>
+        <value>2.7</value>
+        <unit class="org.diylc.core.measures.ResistanceUnit">K</unit>
+      </value>
+      <power>HALF</power>
+      <colorCode>_5_BAND</colorCode>
+    </org.diylc.components.passive.Resistor>
+    <org.diylc.components.passive.RadialFilmCapacitor>
+      <name>C1</name>
+      <alpha>127</alpha>
+      <length>
+        <value>0.25</value>
+        <unit class="org.diylc.core.measures.SizeUnit">in</unit>
+      </length>
+      <width>
+        <value>0.1</value>
+        <unit class="org.diylc.core.measures.SizeUnit">in</unit>
+      </width>
+      <points>
+        <java.awt.Point x="6.3" y="4.7"/>
+        <java.awt.Point x="6.3" y="5.1"/>
+      </points>
+      <bodyColor>
+        <red>255</red>
+        <green>128</green>
+        <blue>0</blue>
+        <alpha>255</alpha>
+      </bodyColor>
+      <borderColor>
+        <red>178</red>
+        <green>89</green>
+        <blue>0</blue>
+        <alpha>255</alpha>
+      </borderColor>
+      <labelColor reference="../../org.diylc.components.passive.Resistor/labelColor"/>
+      <leadColor reference="../../org.diylc.components.passive.Resistor/leadColor"/>
+      <display>NAME</display>
+      <flipStanding>false</flipStanding>
+      <pinSpacing>
+        <value>0.1</value>
+        <unit class="org.diylc.core.measures.SizeUnit">in</unit>
+      </pinSpacing>
+      <value>
+        <value>470.0</value>
+        <unit class="org.diylc.core.measures.CapacitanceUnit">nF</unit>
+      </value>
+      <voltage>_63V</voltage>
+    </org.diylc.components.passive.RadialFilmCapacitor>
+    <org.diylc.components.passive.RadialFilmCapacitor>
+      <name>C1</name>
+      <alpha>127</alpha>
+      <length>
+        <value>0.25</value>
+        <unit class="org.diylc.core.measures.SizeUnit">in</unit>
+      </length>
+      <width>
+        <value>0.1</value>
+        <unit class="org.diylc.core.measures.SizeUnit">in</unit>
+      </width>
+      <points>
+        <java.awt.Point x="6.4" y="4.8"/>
+        <java.awt.Point x="6.4" y="5.0"/>
+      </points>
+      <bodyColor>
+        <red>255</red>
+        <green>128</green>
+        <blue>0</blue>
+        <alpha>255</alpha>
+      </bodyColor>
+      <borderColor>
+        <red>178</red>
+        <green>89</green>
+        <blue>0</blue>
+        <alpha>255</alpha>
+      </borderColor>
+      <labelColor>
+        <red>0</red>
+        <green>0</green>
+        <blue>0</blue>
+        <alpha>255</alpha>
+      </labelColor>
+      <leadColor>
+        <red>204</red>
+        <green>204</green>
+        <blue>204</blue>
+        <alpha>255</alpha>
+      </leadColor>
+      <display>NAME</display>
+      <flipStanding>false</flipStanding>
+      <pinSpacing>
+        <value>0.1</value>
+        <unit class="org.diylc.core.measures.SizeUnit">in</unit>
+      </pinSpacing>
+      <value>
+        <value>470.0</value>
+        <unit class="org.diylc.core.measures.CapacitanceUnit">nF</unit>
+      </value>
+      <voltage>_63V</voltage>
+    </org.diylc.components.passive.RadialFilmCapacitor>
+    <org.diylc.components.connectivity.HookupWire>
+      <name>W1</name>
+      <alpha>127</alpha>
+      <controlPoints>
+        <java.awt.Point x="6.6" y="5.1"/>
+        <java.awt.Point x="6.8" y="5.1"/>
+        <java.awt.Point x="6.9" y="5.1"/>
+        <java.awt.Point x="7.0" y="5.1"/>
+      </controlPoints>
+      <color>
+        <red>0</red>
+        <green>255</green>
+        <blue>255</blue>
+        <alpha>255</alpha>
+      </color>
+      <pointCount>FOUR</pointCount>
+      <gauge>_22</gauge>
+    </org.diylc.components.connectivity.HookupWire>
+    <org.diylc.components.connectivity.HookupWire>
+      <name>W1</name>
+      <alpha>127</alpha>
+      <controlPoints>
+        <java.awt.Point x="6.6" y="5.2"/>
+        <java.awt.Point x="6.8" y="5.2"/>
+        <java.awt.Point x="6.9" y="5.2"/>
+        <java.awt.Point x="7.0" y="5.2"/>
+      </controlPoints>
+      <color>
+        <red>0</red>
+        <green>255</green>
+        <blue>255</blue>
+        <alpha>255</alpha>
+      </color>
+      <pointCount>FOUR</pointCount>
+      <gauge>_22</gauge>
+    </org.diylc.components.connectivity.HookupWire>
+    <org.diylc.components.connectivity.HookupWire>
+      <name>W1</name>
+      <alpha>127</alpha>
+      <controlPoints>
+        <java.awt.Point x="6.6" y="5.3"/>
+        <java.awt.Point x="6.8" y="5.3"/>
+        <java.awt.Point x="6.9" y="5.3"/>
+        <java.awt.Point x="7.0" y="5.3"/>
+      </controlPoints>
+      <color>
+        <red>0</red>
+        <green>255</green>
+        <blue>255</blue>
+        <alpha>255</alpha>
+      </color>
+      <pointCount>FOUR</pointCount>
+      <gauge>_22</gauge>
+    </org.diylc.components.connectivity.HookupWire>
+    <org.diylc.components.connectivity.HookupWire>
+      <name>W1</name>
+      <alpha>127</alpha>
+      <controlPoints>
+        <java.awt.Point x="6.6" y="4.7"/>
+        <java.awt.Point x="6.8" y="4.7"/>
+        <java.awt.Point x="6.9" y="4.7"/>
+        <java.awt.Point x="7.0" y="4.7"/>
+      </controlPoints>
+      <color>
+        <red>0</red>
+        <green>255</green>
+        <blue>0</blue>
+        <alpha>255</alpha>
+      </color>
+      <pointCount>FOUR</pointCount>
+      <gauge>_22</gauge>
+    </org.diylc.components.connectivity.HookupWire>
+    <org.diylc.components.connectivity.HookupWire>
+      <name>W1</name>
+      <alpha>127</alpha>
+      <controlPoints>
+        <java.awt.Point x="6.5" y="5.3"/>
+        <java.awt.Point x="6.5" y="5.5"/>
+        <java.awt.Point x="6.7" y="5.5"/>
+        <java.awt.Point x="7.0" y="5.5"/>
+      </controlPoints>
+      <color>
+        <red>0</red>
+        <green>255</green>
+        <blue>0</blue>
+        <alpha>255</alpha>
+      </color>
+      <pointCount>FOUR</pointCount>
+      <gauge>_22</gauge>
+    </org.diylc.components.connectivity.HookupWire>
+    <org.diylc.components.connectivity.HookupWire>
+      <name>W1</name>
+      <alpha>127</alpha>
+      <controlPoints>
+        <java.awt.Point x="5.3" y="5.0"/>
+        <java.awt.Point x="5.5" y="5.0"/>
+        <java.awt.Point x="5.6" y="5.0"/>
+        <java.awt.Point x="5.7" y="5.0"/>
+      </controlPoints>
+      <color>
+        <red>0</red>
+        <green>255</green>
+        <blue>0</blue>
+        <alpha>255</alpha>
+      </color>
+      <pointCount>FOUR</pointCount>
+      <gauge>_22</gauge>
+    </org.diylc.components.connectivity.HookupWire>
+    <org.diylc.components.connectivity.HookupWire>
+      <name>W1</name>
+      <alpha>127</alpha>
+      <controlPoints>
+        <java.awt.Point x="5.3" y="5.3"/>
+        <java.awt.Point x="5.5" y="5.3"/>
+        <java.awt.Point x="5.6" y="5.3"/>
+        <java.awt.Point x="5.7" y="5.3"/>
+      </controlPoints>
+      <color>
+        <red>0</red>
+        <green>0</green>
+        <blue>0</blue>
+        <alpha>255</alpha>
+      </color>
+      <pointCount>FOUR</pointCount>
+      <gauge>_22</gauge>
+    </org.diylc.components.connectivity.HookupWire>
+    <org.diylc.components.connectivity.HookupWire>
+      <name>W1</name>
+      <alpha>127</alpha>
+      <controlPoints>
+        <java.awt.Point x="5.3" y="5.2"/>
+        <java.awt.Point x="5.5" y="5.2"/>
+        <java.awt.Point x="5.6" y="5.2"/>
+        <java.awt.Point x="5.7" y="5.2"/>
+      </controlPoints>
+      <color>
+        <red>0</red>
+        <green>0</green>
+        <blue>255</blue>
+        <alpha>255</alpha>
+      </color>
+      <pointCount>FOUR</pointCount>
+      <gauge>_22</gauge>
+    </org.diylc.components.connectivity.HookupWire>
+    <org.diylc.components.connectivity.HookupWire>
+      <name>W1</name>
+      <alpha>127</alpha>
+      <controlPoints>
+        <java.awt.Point x="5.3" y="5.1"/>
+        <java.awt.Point x="5.5" y="5.1"/>
+        <java.awt.Point x="5.6" y="5.1"/>
+        <java.awt.Point x="5.7" y="5.1"/>
+      </controlPoints>
+      <color>
+        <red>255</red>
+        <green>0</green>
+        <blue>0</blue>
+        <alpha>255</alpha>
+      </color>
+      <pointCount>FOUR</pointCount>
+      <gauge>_22</gauge>
+    </org.diylc.components.connectivity.HookupWire>
+    <org.diylc.components.passive.RadialElectrolytic>
+      <name>C2</name>
+      <alpha>127</alpha>
+      <length>
+        <value>0.15</value>
+        <unit class="org.diylc.core.measures.SizeUnit">in</unit>
+      </length>
+      <points>
+        <java.awt.Point x="6.5" y="4.9"/>
+        <java.awt.Point x="6.5" y="4.7"/>
+      </points>
+      <bodyColor>
+        <red>234</red>
+        <green>173</green>
+        <blue>234</blue>
+        <alpha>255</alpha>
+      </bodyColor>
+      <borderColor>
+        <red>163</red>
+        <green>121</green>
+        <blue>163</blue>
+        <alpha>255</alpha>
+      </borderColor>
+      <labelColor reference="../../org.diylc.components.passive.Resistor/labelColor"/>
+      <leadColor reference="../../org.diylc.components.passive.Resistor/leadColor"/>
+      <display>NAME</display>
+      <flipStanding>false</flipStanding>
+      <pinSpacing reference="../../org.diylc.components.passive.RadialFilmCapacitor/pinSpacing"/>
+      <voltage>_63V</voltage>
+      <markerColor reference="../../org.diylc.components.semiconductors.TransistorTO92/bodyColor"/>
+      <tickColor reference="../../org.diylc.components.connectivity.TraceCut/fillColor"/>
+      <polarized>true</polarized>
+      <folded>false</folded>
+      <height>
+        <value>0.4</value>
+        <unit class="org.diylc.core.measures.SizeUnit">in</unit>
+      </height>
+      <invert>false</invert>
+    </org.diylc.components.passive.RadialElectrolytic>
+    <org.diylc.components.misc.Label>
+      <name>L1</name>
+      <point x="7.2" y="4.7"/>
+      <text>Treble 1</text>
+      <font>
+        <attributes>
+          <entry>
+            <awt-text-attribute>size</awt-text-attribute>
+            <float>14.0</float>
+          </entry>
+          <entry>
+            <awt-text-attribute>posture</awt-text-attribute>
+            <null/>
+          </entry>
+          <entry>
+            <awt-text-attribute>weight</awt-text-attribute>
+            <null/>
+          </entry>
+          <entry>
+            <awt-text-attribute>transform</awt-text-attribute>
+            <null/>
+          </entry>
+          <entry>
+            <awt-text-attribute>width</awt-text-attribute>
+            <null/>
+          </entry>
+          <entry>
+            <awt-text-attribute>superscript</awt-text-attribute>
+            <null/>
+          </entry>
+          <entry>
+            <awt-text-attribute>tracking</awt-text-attribute>
+            <null/>
+          </entry>
+          <entry>
+            <awt-text-attribute>family</awt-text-attribute>
+            <string>Tahoma</string>
+          </entry>
+        </attributes>
+      </font>
+      <color reference="../../org.diylc.components.passive.Resistor/labelColor"/>
+      <center>false</center>
+      <horizontalAlignment>CENTER</horizontalAlignment>
+      <verticalAlignment>CENTER</verticalAlignment>
+      <orientation>DEFAULT</orientation>
+    </org.diylc.components.misc.Label>
+    <org.diylc.components.misc.Label>
+      <name>L1</name>
+      <point x="7.2" y="5.2"/>
+      <text>Vol 2</text>
+      <font>
+        <attributes>
+          <entry>
+            <awt-text-attribute>size</awt-text-attribute>
+            <float>14.0</float>
+          </entry>
+          <entry>
+            <awt-text-attribute>posture</awt-text-attribute>
+            <null/>
+          </entry>
+          <entry>
+            <awt-text-attribute>weight</awt-text-attribute>
+            <null/>
+          </entry>
+          <entry>
+            <awt-text-attribute>transform</awt-text-attribute>
+            <null/>
+          </entry>
+          <entry>
+            <awt-text-attribute>width</awt-text-attribute>
+            <null/>
+          </entry>
+          <entry>
+            <awt-text-attribute>superscript</awt-text-attribute>
+            <null/>
+          </entry>
+          <entry>
+            <awt-text-attribute>tracking</awt-text-attribute>
+            <null/>
+          </entry>
+          <entry>
+            <awt-text-attribute>family</awt-text-attribute>
+            <string>Tahoma</string>
+          </entry>
+        </attributes>
+      </font>
+      <color>
+        <red>0</red>
+        <green>0</green>
+        <blue>0</blue>
+        <alpha>255</alpha>
+      </color>
+      <center>false</center>
+      <horizontalAlignment>CENTER</horizontalAlignment>
+      <verticalAlignment>CENTER</verticalAlignment>
+      <orientation>DEFAULT</orientation>
+    </org.diylc.components.misc.Label>
+    <org.diylc.components.misc.Label>
+      <name>L1</name>
+      <point x="7.2" y="5.3"/>
+      <text>Vol 1</text>
+      <font>
+        <attributes>
+          <entry>
+            <awt-text-attribute>size</awt-text-attribute>
+            <float>14.0</float>
+          </entry>
+          <entry>
+            <awt-text-attribute>posture</awt-text-attribute>
+            <null/>
+          </entry>
+          <entry>
+            <awt-text-attribute>weight</awt-text-attribute>
+            <null/>
+          </entry>
+          <entry>
+            <awt-text-attribute>transform</awt-text-attribute>
+            <null/>
+          </entry>
+          <entry>
+            <awt-text-attribute>width</awt-text-attribute>
+            <null/>
+          </entry>
+          <entry>
+            <awt-text-attribute>superscript</awt-text-attribute>
+            <null/>
+          </entry>
+          <entry>
+            <awt-text-attribute>tracking</awt-text-attribute>
+            <null/>
+          </entry>
+          <entry>
+            <awt-text-attribute>family</awt-text-attribute>
+            <string>Tahoma</string>
+          </entry>
+        </attributes>
+      </font>
+      <color>
+        <red>0</red>
+        <green>0</green>
+        <blue>0</blue>
+        <alpha>255</alpha>
+      </color>
+      <center>false</center>
+      <horizontalAlignment>CENTER</horizontalAlignment>
+      <verticalAlignment>CENTER</verticalAlignment>
+      <orientation>DEFAULT</orientation>
+    </org.diylc.components.misc.Label>
+    <org.diylc.components.misc.Label>
+      <name>L1</name>
+      <point x="7.2" y="5.1"/>
+      <text>Vol 3</text>
+      <font>
+        <attributes>
+          <entry>
+            <awt-text-attribute>size</awt-text-attribute>
+            <float>14.0</float>
+          </entry>
+          <entry>
+            <awt-text-attribute>posture</awt-text-attribute>
+            <null/>
+          </entry>
+          <entry>
+            <awt-text-attribute>weight</awt-text-attribute>
+            <null/>
+          </entry>
+          <entry>
+            <awt-text-attribute>transform</awt-text-attribute>
+            <null/>
+          </entry>
+          <entry>
+            <awt-text-attribute>width</awt-text-attribute>
+            <null/>
+          </entry>
+          <entry>
+            <awt-text-attribute>superscript</awt-text-attribute>
+            <null/>
+          </entry>
+          <entry>
+            <awt-text-attribute>tracking</awt-text-attribute>
+            <null/>
+          </entry>
+          <entry>
+            <awt-text-attribute>family</awt-text-attribute>
+            <string>Tahoma</string>
+          </entry>
+        </attributes>
+      </font>
+      <color>
+        <red>0</red>
+        <green>0</green>
+        <blue>0</blue>
+        <alpha>255</alpha>
+      </color>
+      <center>false</center>
+      <horizontalAlignment>CENTER</horizontalAlignment>
+      <verticalAlignment>CENTER</verticalAlignment>
+      <orientation>DEFAULT</orientation>
+    </org.diylc.components.misc.Label>
+    <org.diylc.components.misc.Label>
+      <name>L1</name>
+      <point x="7.2" y="5.5"/>
+      <text>Treble 2/3</text>
+      <font>
+        <attributes>
+          <entry>
+            <awt-text-attribute>size</awt-text-attribute>
+            <float>14.0</float>
+          </entry>
+          <entry>
+            <awt-text-attribute>posture</awt-text-attribute>
+            <null/>
+          </entry>
+          <entry>
+            <awt-text-attribute>weight</awt-text-attribute>
+            <null/>
+          </entry>
+          <entry>
+            <awt-text-attribute>transform</awt-text-attribute>
+            <null/>
+          </entry>
+          <entry>
+            <awt-text-attribute>width</awt-text-attribute>
+            <null/>
+          </entry>
+          <entry>
+            <awt-text-attribute>superscript</awt-text-attribute>
+            <null/>
+          </entry>
+          <entry>
+            <awt-text-attribute>tracking</awt-text-attribute>
+            <null/>
+          </entry>
+          <entry>
+            <awt-text-attribute>family</awt-text-attribute>
+            <string>Tahoma</string>
+          </entry>
+        </attributes>
+      </font>
+      <color>
+        <red>0</red>
+        <green>0</green>
+        <blue>0</blue>
+        <alpha>255</alpha>
+      </color>
+      <center>false</center>
+      <horizontalAlignment>CENTER</horizontalAlignment>
+      <verticalAlignment>CENTER</verticalAlignment>
+      <orientation>DEFAULT</orientation>
+    </org.diylc.components.misc.Label>
+    <org.diylc.components.misc.Label>
+      <name>L2</name>
+      <point x="6.0" y="5.8"/>
+      <text>Vol is 100kA</text>
+      <font reference="../../org.diylc.components.misc.Label/font"/>
+      <color reference="../../org.diylc.components.passive.Resistor/labelColor"/>
+      <center>false</center>
+      <horizontalAlignment>CENTER</horizontalAlignment>
+      <verticalAlignment>CENTER</verticalAlignment>
+      <orientation>DEFAULT</orientation>
+    </org.diylc.components.misc.Label>
+    <org.diylc.components.misc.Label>
+      <name>L2</name>
+      <point x="6.0" y="5.9"/>
+      <text>Treble is 1kC</text>
+      <font>
+        <attributes>
+          <entry>
+            <awt-text-attribute>size</awt-text-attribute>
+            <float>14.0</float>
+          </entry>
+          <entry>
+            <awt-text-attribute>posture</awt-text-attribute>
+            <null/>
+          </entry>
+          <entry>
+            <awt-text-attribute>weight</awt-text-attribute>
+            <null/>
+          </entry>
+          <entry>
+            <awt-text-attribute>transform</awt-text-attribute>
+            <null/>
+          </entry>
+          <entry>
+            <awt-text-attribute>width</awt-text-attribute>
+            <null/>
+          </entry>
+          <entry>
+            <awt-text-attribute>superscript</awt-text-attribute>
+            <null/>
+          </entry>
+          <entry>
+            <awt-text-attribute>tracking</awt-text-attribute>
+            <null/>
+          </entry>
+          <entry>
+            <awt-text-attribute>family</awt-text-attribute>
+            <string>Tahoma</string>
+          </entry>
+        </attributes>
+      </font>
+      <color>
+        <red>0</red>
+        <green>0</green>
+        <blue>0</blue>
+        <alpha>255</alpha>
+      </color>
+      <center>false</center>
+      <horizontalAlignment>CENTER</horizontalAlignment>
+      <verticalAlignment>CENTER</verticalAlignment>
+      <orientation>DEFAULT</orientation>
+    </org.diylc.components.misc.Label>
+  </components>
+  <groups/>
+  <lockedLayers/>
+</org.diylc.core.Project>

@@ -1,0 +1,13 @@
+Change Component Footprint: Designator=U2 Old Footprint=TO92 New Footprint=SOT-89_N
+Change Component Comment : Designator=U2 Old Comment=LE33ABZ New Comment=L78L33ABUTR
+Change component parameters: Designator = "U2"; Footprint = "SOT-89_N"; UniqueID = "\VUTDWVHU\VJNCVKTR"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "ComponentLink1Description"; Value = "Manufacturer URL"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.st.com"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink2URL"; Value = "http://www.st.com/internet/com/TECHNICAL_RESOURCES/TECHNICAL_LITERATURE/DATASHEET/CD00000446.pdf"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "DatasheetVersion"; Value = "Feb-2011"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageDescription"; Value = "3-Pin SOT-89 Package 1.5 mm Pitch, 4.1 mm Lead Span"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageReference"; Value = "SOT-89"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageVersion"; Value = "2011"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PartNumber"; Value = "L78L33ABUTR"; VariantName = "[No Variations]"

@@ -1,0 +1,4 @@
+Record=TopLevelDocument|FileName=Master.SchDoc
+Record=SheetSymbol|SourceDocument=Master.SchDoc|Designator=U_Connectors|SchDesignator=U_Connectors|FileName=Connectors.SchDoc|SymbolType=Normal|RawFileName=Connectors.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
+Record=SheetSymbol|SourceDocument=Master.SchDoc|Designator=U_RelayBypass|SchDesignator=U_RelayBypass|FileName=RelayBypass.SchDoc|SymbolType=Normal|RawFileName=RelayBypass.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
+Record=SheetSymbol|SourceDocument=Master.SchDoc|Designator=U_TrebleBoost|SchDesignator=U_TrebleBoost|FileName=TrebleBoost.SchDoc|SymbolType=Normal|RawFileName=TrebleBoost.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 

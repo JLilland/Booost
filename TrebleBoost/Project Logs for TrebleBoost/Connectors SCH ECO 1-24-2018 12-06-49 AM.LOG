@@ -1,0 +1,10 @@
+Replace Part * Jumper in C:\Pinebox Effects\Booost\TrebleBoost\Connectors.SchDoc with Jumper from Parts.SchLib
+Replace Part C1 C1206 in C:\Pinebox Effects\Booost\TrebleBoost\Connectors.SchDoc with C1206 from KEMET Chip Capacitor.IntLib
+Replace Part C3 C1206 in C:\Pinebox Effects\Booost\TrebleBoost\Connectors.SchDoc with C1206 from KEMET Chip Capacitor.IntLib
+Replace Part C4 C1206 in C:\Pinebox Effects\Booost\TrebleBoost\Connectors.SchDoc with C1206 from KEMET Chip Capacitor.IntLib
+Replace Part C11 C1210 in C:\Pinebox Effects\Booost\TrebleBoost\Connectors.SchDoc with C1210 from KEMET Chip Capacitor.IntLib
+Replace Part C12 C1210 in C:\Pinebox Effects\Booost\TrebleBoost\Connectors.SchDoc with C1210 from KEMET Chip Capacitor.IntLib
+Replace Part D3 BZX85C12 in C:\Pinebox Effects\Booost\TrebleBoost\Connectors.SchDoc with BZX85C12 from Vishay Telefunken Discrete Diode.IntLib
+Replace Part R13 Res2 in C:\Pinebox Effects\Booost\TrebleBoost\Connectors.SchDoc with Res2 from Miscellaneous Devices.IntLib
+Replace Part U1 L78L05ABUTR in C:\Pinebox Effects\Booost\TrebleBoost\Connectors.SchDoc with L78L05ABUTR from STMicroelectronics Power Management Linear Regulator.IntLib
+Replace Part U2 L78L33ABUTR in C:\Pinebox Effects\Booost\TrebleBoost\Connectors.SchDoc with L78L33ABUTR from STMicroelectronics Power Management Linear Regulator.IntLib

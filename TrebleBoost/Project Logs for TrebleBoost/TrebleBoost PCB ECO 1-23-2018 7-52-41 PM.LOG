@@ -1,0 +1,27 @@
+Removed Pin From Net: NetName=5v Pin=C2-2
+Removed Pin From Net: NetName=5v Pin=C3-2
+Removed Pin From Net: NetName=9V Pin=U1-2
+Removed Pin From Net: NetName=9V Pin=U1-6
+Removed Pin From Net: NetName=9V Pin=U1-7
+Removed Pin From Net: NetName=GND Pin=U1-8
+Removed Pin From Net: NetName=5v Pin=U2-3
+Change Component Footprint: Designator=U1 Old Footprint=SO8_N New Footprint=SOT-89_N
+Change Component Comment : Designator=U1 Old Comment=C78L05CD New Comment=L78L05ABUTR
+Change component parameters: Designator = "U1"; Footprint = "SOT-89_N"; UniqueID = "\VUTDWVHU\VWUIQUCI"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "ComponentLink1Description"; Value = "Manufacturer URL"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.st.com"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink2URL"; Value = "http://www.st.com/internet/com/TECHNICAL_RESOURCES/TECHNICAL_LITERATURE/DATASHEET/CD00000446.pdf"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "DatasheetVersion"; Value = "Feb-2011"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageDescription"; Value = "3-Pin SOT-89 Package 1.5 mm Pitch, 4.1 mm Lead Span"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageReference"; Value = "SOT-89"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageVersion"; Value = "2011"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PartNumber"; Value = "L78L05ABUTR"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND Pin=U1-2
+Added Pin To Net: NetName=GND Pin=U1-2
+Added Pin To Net: NetName=NetC2_2 Pin=C2-2
+Added Pin To Net: NetName=NetC2_2 Pin=C3-2
+Added Pin To Net: NetName=NetC2_2 Pin=U1-1
+Added Pin To Net: NetName=NetC2_2 Pin=U2-3
+Added Net: Name=NetC2_2

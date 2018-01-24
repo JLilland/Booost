@@ -1,0 +1,6 @@
+Added Component: Designator=JMP1(Jumper)
+Add component. Clean all parameters for all variants
+Added Component: Designator=JMP2(Jumper)
+Add component. Clean all parameters for all variants
+Added Member To Class: ClassName=U_Connectors Member=Component JMP1 Jumper
+Added Member To Class: ClassName=U_Connectors Member=Component JMP2 Jumper

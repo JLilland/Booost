@@ -1,0 +1,5 @@
+Change Component Designator: OldDesignator=C? NewDesignator=C11
+Change Component Designator: OldDesignator=C? NewDesignator=C12
+Change Component Designator: OldDesignator=D? NewDesignator=D3
+Change Component Designator: OldDesignator=R? NewDesignator=R13
+Added Member To Class: ClassName=U_Connectors Member=Component C12 C1210

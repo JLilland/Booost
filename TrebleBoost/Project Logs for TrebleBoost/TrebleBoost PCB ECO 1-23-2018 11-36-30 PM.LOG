@@ -1,0 +1,3 @@
+Removed Pin From Net: NetName=DGND Pin=C2-1
+Removed Pin From Net: NetName=5v Pin=C2-2
+Removed Member From Class: ClassName=U_Connectors Member=C2
