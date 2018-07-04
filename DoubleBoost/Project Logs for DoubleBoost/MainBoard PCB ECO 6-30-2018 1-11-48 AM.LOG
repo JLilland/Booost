@@ -1,0 +1,22 @@
+Change Component Designator: OldDesignator=R1 NewDesignator=R2
+Change Component Designator: OldDesignator=R2 NewDesignator=R3
+Change Component Designator: OldDesignator=R3 NewDesignator=R4
+Change Component Designator: OldDesignator=R4 NewDesignator=R5
+Change Component Designator: OldDesignator=R5 NewDesignator=R1
+Change Component Description : Designator=VR1 Old Description=Potentiometer 16mm New Description=
+Change Component Description : Designator=VR2 Old Description=Potentiometer 16mm New Description=
+Change component parameters: Designator = "C4"; Footprint = "CAPR5-4X5"; UniqueID = "\QHAINSLI"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "PackageDescription"; Value = "Capacitor; 2 Leads"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageReference"; Value = "CAPR5-4X5"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Published"; Value = "23-Sep-2002"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "2.2uF"; VariantName = "[No Variations]"
+Change component parameters: Designator = "VR1"; Footprint = "Pot-16mm"; UniqueID = "\JPNPXMLM"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Value"; Value = "A10k"; VariantName = "[No Variations]"
+Change component parameters: Designator = "VR2"; Footprint = "Pot-16mm"; UniqueID = "\BFQKCYQN"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Value"; Value = "A10k"; VariantName = "[No Variations]"
+Added Member To Class: ClassName=TrebleBoost Member=Component VR1 Pot-16mm
+Added Room: Name=TrebleBoost

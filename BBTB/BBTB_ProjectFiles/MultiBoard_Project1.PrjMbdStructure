@@ -1,0 +1,4 @@
+Record=DiagramHierarchy|SourceDocument=MultiBoardSchematic1.MbsDoc|Kind=Multi-board Schematic Module|Designator=1|Source=..\..\..\Jeremiah Lilland\Documents\GitHub\Booost\PCB_Project\DoubleBoost.PrjPcb
+Record=SubProject|SourceDocument=MultiBoardSchematic1.MbsDoc|ProjectPath=..\..\..\Jeremiah Lilland\Documents\GitHub\Booost\PCB_Project\DoubleBoost.PrjPcb
+Record=DiagramHierarchy|SourceDocument=MultiBoardSchematic1.MbsDoc|Kind=Multi-board Schematic Module|Designator=2|Source=..\..\..\Jeremiah Lilland\Documents\GitHub\RelayBypass\3PDT_Board.PrjPCB
+Record=SubProject|SourceDocument=MultiBoardSchematic1.MbsDoc|ProjectPath=..\..\..\Jeremiah Lilland\Documents\GitHub\RelayBypass\3PDT_Board.PrjPCB

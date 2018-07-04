@@ -1,0 +1,15 @@
+Added Component: Designator=VR1(Pot-16mm)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "1kC"; VariantName = "[No Variations]"
+Added Component: Designator=VR2(Pot-16mm)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "100kA"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=NetC4_2 Pin=VR1-2
+Added Pin To Net: NetName=NetC4_2 Pin=VR1-2
+Added Pin To Net: NetName=NetQ1_1 Pin=VR1-3
+Added Pin To Net: NetName=GND Pin=VR2-1
+Added Pin To Net: NetName=OUT Pin=VR2-2
+Added Pin To Net: NetName=OUT Pin=VR2-2
+Added Pin To Net: NetName=NetC2_1 Pin=VR2-3
+Added Member To Class: ClassName=TrebleBoost Member=Component VR1 Pot-16mm
+Added Member To Class: ClassName=TrebleBoost Member=Component VR2 Pot-16mm

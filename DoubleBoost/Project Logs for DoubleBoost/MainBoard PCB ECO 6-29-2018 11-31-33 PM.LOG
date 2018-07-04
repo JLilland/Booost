@@ -1,0 +1,41 @@
+Removed Pin From Net: NetName=GND Pin=C4-1
+Removed Pin From Net: NetName=NetC2_2 Pin=Q1-1
+Removed Pin From Net: NetName=NetC2_2 Pin=R3-1
+Removed Pin From Net: NetName=NetC2_1 Pin=VR2-3
+Change Component Footprint: Designator=C2 Old Footprint=RAD-0.3 New Footprint=Cap-0.2"
+Change Component Footprint: Designator=C3 Old Footprint=RAD-0.3 New Footprint=Cap-0.2"
+Change Component Footprint: Designator=C4 Old Footprint=RAD-0.3 New Footprint=CAPR5-4X5
+Change Component Comment : Designator=C4 Old Comment=Cap New Comment=Cap2
+Change Component Comment : Designator=C2 Old Comment=Cap New Comment=Wima Capacitor
+Change Component Comment : Designator=C3 Old Comment=Cap New Comment=Wima Capacitor
+Change component parameters: Designator = "R5"; Footprint = "AXIAL-0.3"; UniqueID = "\AMWXJYVT"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "LatestRevisionDate"; Value = "17-Jul-2002"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "LatestRevisionNote"; Value = "Re-released for DXP Platform."; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageDescription"; Value = "Axial Device, Thru-Hole; 2 Leads; 0.3 in Pin Spacing"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageReference"; Value = "AXIAL-0.3"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Published"; Value = "8-Jun-2000"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "1M"; VariantName = "[No Variations]"
+Change component parameters: Designator = "C2"; Footprint = "Cap-0.2""; UniqueID = "\AWVHWJYP"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Value"; Value = "100n"; VariantName = "[No Variations]"
+Change component parameters: Designator = "C3"; Footprint = "Cap-0.2""; UniqueID = "\UFWHHPFF"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Value"; Value = "100n"; VariantName = "[No Variations]"
+Change component parameters: Designator = "C4"; Footprint = "CAPR5-4X5"; UniqueID = "\QHAINSLI"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "PackageDescription"; Value = "Capacitor; 2 Leads"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageReference"; Value = "CAPR5-4X5"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Published"; Value = "23-Sep-2002"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "100uF"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND Pin=C4-2
+Added Pin To Net: NetName=NetC2_1 Pin=Q1-1
+Added Pin To Net: NetName=NetC2_1 Pin=R3-1
+Added Pin To Net: NetName=NetC2_2 Pin=VR2-3
+Added Pin To Net: NetName=NetC4_1 Pin=C4-1
+Added Pin To Net: NetName=NetC4_1 Pin=VR1-2
+Added Pin To Net: NetName=NetC4_1 Pin=VR1-2
+Added Net: Name=NetC4_1
+Added Room: Name=TrebleBoost
